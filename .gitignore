@@ -25,8 +25,8 @@ hs_err_pid*
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+#!**/src/main/**
+#!**/src/test/**
 
 ### STS ###
 .apt_generated
@@ -53,12 +53,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-.idea/
-demo-1/.gitignore
-demo-1/.mvn/
-demo-1/mvnw
-demo-1/mvnw.cmd
-demo-1/pom.xml
-demo-1/src/
-springboot-demo.iml
